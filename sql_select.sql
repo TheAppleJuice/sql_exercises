@@ -42,7 +42,7 @@ select name, district from city where countrycode = "tto";
 #
 #
 # 6: Get the name and district named as nm,dist from the cities where the countrycode is "arm"
--- select name district from city where district = "nm", and countrycode ="arm";
+select name AS nm, district AS dist from city where countrycode ="arm";
 #
 #
 # 7: Get the cities with a name that starts with "bor"
